@@ -3,6 +3,24 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {},
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@nestjs/common": "^11.1.3",
+    "@nestjs/core": "^11.1.3",
+    "@nestjs/platform-fastify": "^11.1.3",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.7",
+    "@nestjs/schematics": "^11.0.5",
+    "@nestjs/testing": "^11.1.3",
+    "@swc/cli": "^0.7.7",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.11",
+    "globals": "^16.3.0",
+    "source-map-support": "^0.5.21",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
 }
